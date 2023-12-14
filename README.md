@@ -1,6 +1,8 @@
 # NLQ to SQL Translator
 Natural Language Query (NLQ) to Structured Query Language (SQL) Translator
-EECS 487 Final Project, FA 2023
+
+EECS 487 Final Project, Fall 2023
+
 Nithisha Nantha Kumar and Rushabh Shah
 
 Relational database management systems (RDBMS) are widely used to store data in several applications. Users must learn how to write SQL queries to easily use an RDBMS for retrieving data. Understanding the fundamentals of SQL and becoming proficient in the language to write queries can be tedious and time-consuming. To address this issue, we have created nlq2sql, an NLP model-based system allowing users to input natural language text in English and attributes (table column names). The system will then translate this text into a valid SQL SELECT query that can be used in an RDBMS. 
