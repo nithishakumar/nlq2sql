@@ -5,6 +5,8 @@ EECS 487 Final Project, Fall 2023
 
 Nithisha Nantha Kumar and Rushabh Shah
 
+# About
+
 Relational database management systems (RDBMS) are widely used to store data in several applications. Users must learn how to write SQL queries to easily use an RDBMS for retrieving data. Understanding the fundamentals of SQL and becoming proficient in the language to write queries can be tedious and time-consuming. To address this issue, we have created nlq2sql, an NLP model-based system allowing users to input natural language text in English and attributes (table column names). The system will then translate this text into a valid SQL SELECT query that can be used in an RDBMS. 
 
 For instance, given the NLQ "Which province is grey and bell electorate in?" and the list of attributes ['Member', 'Electorate', 'Province', 'MPs term', 'Election date'], our system will output the SQL query "SELECT province FROM table WHERE Electorate = Grey and Bell".
