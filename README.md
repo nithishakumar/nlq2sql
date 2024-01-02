@@ -7,7 +7,8 @@ Nithisha Nantha Kumar and Rushabh Shah
 
 # About
 
-Relational database management systems (RDBMS) are widely used to store data in several applications. Users must learn how to write SQL queries to easily use an RDBMS for retrieving data. Understanding the fundamentals of SQL and becoming proficient in the language to write queries can be tedious and time-consuming. To address this issue, we have created nlq2sql, an NLP model-based system allowing users to input natural language text in English and attributes (table column names). The system will then translate this text into a valid SQL SELECT query that can be used in an RDBMS. 
+Database Management Systems are an integral part of offices across the world. Companies within and outside the tech industry have endless data that needs to be stored, organized, and retrieved. One of the most common ways to do so has been writing Structured Query Language (SQL). While SQL is one of the most widely sought-after skills today, ranked 5th by Stack Overflow’s [annual survey](https://survey.stackoverflow.co/2023/#section-admired-and-desired-programming-scripting-and-markup-languages) of almost 90,000 people, non-programmers often find themselves in a position where they have to write SQL code. That is where our project comes in. Our Natural Language to SQL Query Translator aims to generate accurate SQL SELECT statements given a Natural Language Query (NLQ) to aid users who do not have in-depth knowledge of the topic. Our system takes in the schema (which refers to a relevant table and its column names) and an NLQ and creates an appropriate SQL statement. 
+
 
 For instance, given the NLQ "Which province is grey and bell electorate in?" and the list of attributes ['Member', 'Electorate', 'Province', 'MPs term', 'Election date'], our system will output the SQL query "SELECT province FROM table WHERE Electorate = Grey and Bell".
 
